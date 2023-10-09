@@ -1,0 +1,69 @@
+<title>Spirate - Extras</title>
+<p align="left"><font face="Verdana"><u><font color="#008000" size="4"><b>Extras</b></font></u></font></p>
+<p align="left"><font face="Verdana"><br>
+<font color="#008000">-Poner a un usuario de administrador:</font><br>
+Ve a la tabla smf_members, pulsa en &quot;examinar&quot; y aparecerá tu nombre de usuario. 
+Ahora ve a &quot;editar&quot;, en el campo ID_Grup cambias el valor que esta por defecto, 
+el cual es 0, por 1.<br>
+<br>
+<font color="#008000">-Cambiar el logotipo de la página principal:</font><br>
+Para ello sólo debes reemplazar el [i]logo.png[/i] de la carpeta /Themes/default/images 
+.<br>
+<br>
+<font color="#008000">-Cambiar el contenido de la caja &quot;Destacados&quot;:</font><br>
+Para cambiar lo que sale en la página principal (Ayuda a Yelid Mod y cosas por 
+el estilo), abre el ssi.php y busca por [code]function ssi_destacado()[/code]<br>
+debajo encontrarás los sitios para poner la publicidad o lo que quieras que 
+haya.<br>
+<br>
+<font color="#008000">-Cambiar la cantidad de posts a mostrar en Últimos posts:</font><br>
+Abre el pag1.php y el pag1-guest.php y busca por:<br>
+[code]$RegistrosAMostrar=50;[/code]<br>
+50 son los posts que se mostrarán por página en Últimos Posts, edítalo y ya.<br>
+<br>
+<font color="#008000">-Poner tu publicidad en distintas partes de la web:</font><br>
+En /Themes/default/Sitemap.template.php, en Profile.template.php, en 
+Favoritos.template.php, en Search.template.php y en Tags.template.php , si 
+buscas por Publicidad encontrarás el espacio que he dejado para que puedas poner 
+la tuya.<br>
+El lugar a editar es este:<br>
+[code]&lt;div class=&quot;box_icono&quot; style=&quot;width: 100%;&quot;&gt;&lt;center&gt;AQUÍ ENTRE CENTER Y /CENTER<br>
+&lt;/center&gt;[/code]<br>
+Ejemplo de publicidad:<br>
+[code]&lt;div class=&quot;box_icono&quot; style=&quot;width: 100%;&quot;&gt;&lt;center&gt;&lt;script language=&quot;javascript&quot; 
+type=&quot;text/javascript&quot;&gt;<br>
+iw_ad_ancho=120;<br>
+iw_ad_alto=600;<br>
+iw_ad_formato=&quot;ad_120x600&quot;;<br>
+iw_ad_cad=&quot;98715ghfgffgf6&quot;;<br>
+iwsrcplus=&quot;http://code.impresionesweb.com/r/banner_iw.php?idrotador=44082&amp;tamano=120x600&amp;lgid=&quot;+((new 
+Date()).getTime() % 2147483648) + Math.random();<br>
+document.write(&quot;&lt;scr&quot;+&quot;ipt language=javascript type=text/javascript src=&quot;+iwsrcplus+&quot;&gt;&lt;/scr&quot;+&quot;ipt&gt;&quot;);<br>
+&lt;/script&gt;<br>
+&lt;noscript&gt;<br>
+&lt;iframe src=&quot;http://alt.impresionesweb.com/noscript.php?tam=120x600&amp;idp=44082&amp;ref=44082&amp;cod=57392&quot; 
+width=&quot;120&quot; height=&quot;600&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; 
+scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/noscript&gt;&lt;/noscript&gt;<br>
+&lt;/center&gt;[/code]<br>
+[color=green]<br>
+-Añadir banners o enlaces en el bloque Enlaces:[/color]<br>
+Abre el SSI.PHP y busca por [code]function ssi_enlaces()<br>
+{<br>
+echo'[/code] lo que haya acontinuación es donde añadir el código html de la img 
+con el link.<br>
+<br>
+[color=green]-Editar los distintos banners de la afiliación y el nombre que 
+sale:[/color]<br>
+Los banners a editar se encuentran en /web/enlazanos y sólo sirven:<br>
+16x16.gif<br>
+88x31.gif<br>
+125x125.gif<br>
+Los otros se pueden eliminar.<br>
+El nombre tienes que editarlo modificando la variable $titul, que puedes 
+encontrarla en /Themes/default/enlazanos.template.php.<br>
+<br>
+<font color="#008000">-Editar email (escondido) de enviar tema a un amigo:<br>
+</font>Parece que han colado un campo en el que puedes poner tu email y recibir 
+los mensajes de recomendación de los users.<br>
+Para editar este mail abre la carpeta /Themes/default/SendTopic.template.php<br>
+Busca por soporte@</font></p>

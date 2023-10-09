@@ -1,0 +1,75 @@
+/* inicio de iconos */
+.icon_img {height:16px; width:16px;overflow:hidden; border:0px solid white;} 
+.icons {background:url('../images/icons/cwbig-v1-iconos.gif') no-repeat scroll left top; display:inline;	padding: 2px 7px;}
+.icons.denunciar_post {background-position: left -21px;}
+.icons.denunciar_post:hover {background-position: left -1px; color: #D69F2B;}
+.icons.denunciar_post {background-position: left -21px;}
+.icons.agregar_favoritos {background-position: left -58px;}
+.icons.agregar_favoritos:hover {background-position: left -40px; color: #D95858;}
+.icons.agregar_favoritos {background-position: left -58px;}
+.icons.recomendar_post {background-position: left -95px;}
+.icons.recomendar_post:hover {background-position: left -76px; color: #4783C1;}
+.icons.recomendar_post {background-position: left -95px;}
+/*sin efectos*/
+.icons.fav {background-position: left -113px; padding-left: 20px;}
+.icons.comentaron {background-position: left -285px; padding-left: 18px;}
+.icons.citar {background-position: left -285px; padding-left: 9px;}
+.icons.emp {background-position: left -493px; padding-left: 9px;}
+.icons.visitas{background-position: left -301px; padding-left: 18px;}
+.icons.puntos{background-position: left -316px; padding-left: 18px;}
+.icons.mavatar{background-position: left -596px; padding-left: 18px;}
+.icons.emp2{background-position: left -496px; padding-left: 18px;}
+.icons.blog{background-position: left -804px; padding-left: 18px;}
+.icons.blogm{background-position: left -804px; padding-left: 9px;}
+.icons.bloged{background-position: left -780px; padding-left: 18px;}
+.icons.cuenta2{background-position: left -162px; padding-left: 18px;}
+.icons.fot2{background-position: left -136px; padding-left: 18px;}
+.icons.aimg{background-position: left -618px; padding-left: 18px; }
+.icons.radio-icon {background-position: left -330px; padding-left: 18px;}
+.icons.fav2 {background-position: left -112px; padding-left: 9px;}
+.icons.fot {background-position: left -136px; padding-left: 9px;}
+.icons.monitor {background-position: left -745px; padding-left: 9px;}
+.icons.rasds {background-position: left -354px; padding-left: 18px;}
+.icons.cuenta {background-position: left -161px; padding-left: 9px;}
+.icons.his-mod {background-position: left -208px; padding-left: 9px;}
+.icons.admin {background-position: left -238px;}
+.icons.mp {background-position: left -185px; padding-left: 9px;}
+.icons.mp-nuevo {background-position: left -265px;}
+a.icons.recomendar_post,a.agregar_favoritos,a.denunciar_post,a.fav { padding-left: 18px;}
+/** termina los iconos **/
+/* puntas redondeadas (titles). */
+.box_rss{background-image:url('../images/cor-der.gif'); background-repeat:no-repeat; float:left; background-position:top right; padding-right:8px; padding-top:4px;}
+.box_txt.ultimos_posts {width:346px!important;}
+.box_txt.ultimos_comments {width:329px!important;}
+.box_txt.box_buscadort {width: 889px!important;}
+.box_txt.box_r_buscadort {width:668px!important;}
+.box_txt.box_error {width:358px!important;}
+.box_txt.box_235-34 {width:201px!important;}
+.box_txt.box_780-34 {width:746px!important;}
+.box_txt.box_140-34 {width:106px!important;}
+.box_txt.box_390-34 {width:352px!important;}
+.box_txt.publicidad_r {width:180px!important;}
+.box_txt.img_aletat {width:126px!important;}
+.box_txt.alert {width:387px!important;}
+.box_txt.alert1 {width:458px!important;}
+.box_txt.ed-ag-posts {width:652px!important;}
+/*tamaños*/
+.box_235 {height: 100%; width:233px!important; float:left; margin-right:8px;}
+.box_780 {height: 100%; width:778px!important;}
+.box_140 {height: 100%; width:138px!important;}
+.box_390 {height: 100%; width:384px!important;}
+.ed-ag-post{height: 100%; width:684px; float:left;}
+.ultimos_postsa{height: 100%; float:left; width:378px; margin-right:8px;}
+.box_buscador{height: 100%; float:left;	margin-bottom:8px; width: 919px;}
+.box_r_buscador{height: 100%; float:left; margin-bottom:8px; width:698px;}
+.box_errors{height: 100%; margin-bottom:8px; width:388px;}
+.publicidad{height: 100%; float:left; width:210px;}
+.box_alert1a{margin-right:8px; clear:left; width:490px;}
+.box_alert1b{margin-bottom:8px; clear:left; width:417px;}	
+.act_comments{float:left; clear:left; width:361px; margin-right:8px;}
+.img_aletat{float:left; clear:left; width:158px;}
+/*fin*/
+.box_title{background:#dbdbda repeat-x url('../images/cita-title.gif'); padding:0px; height:25px;}
+.box_txt, .box_txt_perfil_izq, .box_txt_perfil_der{background-image:url('../images/cor-izq.gif'); background-repeat:no-repeat;	float:left;	padding: 5px 0 0 10px; font-weight:bold; color:#464646;	font-size: 12px;}
+.box_posts{	float:left;	background: #FFF url('../images/bg-blanco.gif') repeat-x; padding: 3px; width: 372px; clear:left; background-color: #FFFFFF; border:#E0DAD3 solid 1px;	margin: 0px 5px 5px 0px;}
+/* fin puntas redondeadas. */

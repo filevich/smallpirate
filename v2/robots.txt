@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /Themes/default/languages/
+Allow: /Themes/default/
+Allow: /Smileys/
+Allow: /Themes/
+Allow: /Smileys/default/
+Allow: /index.php/
+Allow: /
+Allow: /logos/
+Allow: /web/
+Disallow: /cpanel

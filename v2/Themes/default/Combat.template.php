@@ -1,0 +1,1 @@
+<?php function template_button_strip(){} ?>

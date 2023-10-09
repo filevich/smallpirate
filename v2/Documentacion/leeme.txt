@@ -1,0 +1,19 @@
+                      **********************
+                      * SPIRATE V2 OFICIAL *
+                      **********************
+                    /////// SmallPirate \\\\\\\
+
+Instalar:
+1-. Descomprime este archivo en la raíz del ftp.
+2-. Dirígete a tupaginaweb.com/install.php y sigue los pasos hasta el final.
+
+
+¿Qué más debo modificar?
+
+Los js de /web/java
+El archivo agregar.xml de /web/
+
+
+Los distintos extras pueden verse en extras.html
+
+

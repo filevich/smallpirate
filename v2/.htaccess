@@ -1,0 +1,44 @@
+	  RewriteBase /      
+      RewriteEngine on
+      Rewriterule ^post/(.*)$ index.php?topic=$1
+      Rewriterule ^perfil/(.*)$ index.php?action=profile;user=$1
+      Rewriterule ^categoria/(.*)$ index.php?id=$1
+      Rewriterule ^tops/expandir/(.*)$ index.php?action=TOPs;expand=$1
+      Rewriterule ^tops/contraer/(.*)$ index.php?action=TOPs;collapse=$1
+      Rewriterule ^tops(.*)$ index.php?action=TOPs
+      Rewriterule ^cuenta(.*)$ index.php?action=profile;sa=cuenta
+      Rewriterule ^mi-perfil(.*)$ index.php?action=profile;sa=perfil
+      Rewriterule ^agregar(.*)$ index.php?action=post;board=4
+      Rewriterule ^vibracion-reggae(.*)$ index.php?action=rz;m=vr2965
+      Rewriterule ^user-post/(.*)$ index.php?action=profile;user=$1;sa=post
+      Rewriterule ^user-comment/(.*)$ index.php?action=profile;user=$1;sa=comentarios
+      Rewriterule ^editar-vibracion-reggae(.*)$ index.php?action=rz;m=vr2965;editar=1
+      Rewriterule ^mensajes/leer/2$/1$(.*) index.php?action=pm;l=$2;p=$1
+      Rewriterule ^mensajes/a/(.*)$ index.php?action=pm;sa=send;u=$1
+      Rewriterule ^mensajes/redactar(.*)$ index.php?action=pm;sa=send
+      Rewriterule ^mensajes/enviados(.*)$ index.php?action=pm;f=outbox
+      Rewriterule ^mensajes(.*)$ index.php?action=pm  
+      Rewriterule ^widget(.*)$ index.php?action=widget
+      Rewriterule ^chat(.*)$ index.php?action=rz;m=4674868
+      Rewriterule ^imagenes/ver/(.*)$ index.php?action=imagenes;sa=ver;id=$1
+	  Rewriterule ^imagenes/(.*)$ index.php?action=imagenes&usuario=$1      
+	  Rewriterule ^rss/post-user/(.*)$ /web/rss/rss-user.php?us=$1
+      Rewriterule ^rss/ultimos-post(.*)$ /web/rss/rss-ultimos-post.php
+      Rewriterule ^rss/ultimos-comment(.*)$ /web/rss/rss-comment.php
+      Rewriterule ^rss/img-comment/(.*)$ /web/rss/rss-pic-comment.php?id=$1
+      Rewriterule ^tu-ip.gif /Themes/default/fonts/ip.php
+      Rewriterule ^avatar.gif /Themes/default/images/avatar.gif
+      Rewriterule ^post-agregado/(.*)$ index.php?action=rz;m=post-agregado;idpost=$1
+      Rewriterule ^post-editado/(.*)$ index.php?action=rz;m=post-editado;idpost=$1
+      Rewriterule ^protocolo(.*)$ index.php?action=protocolo
+	  Rewriterule ^contactenos(.*)$ index.php?action=contactenos
+
+## USER IP BANNING
+<Limit GET POST>
+ order allow,deny
+ deny from 190.51.179.31
+ deny from 190.11.35.222
+ allow from all
+</Limit>
+
+
