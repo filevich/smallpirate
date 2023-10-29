@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+
+  web-server:
+    image: filevich/smallpirate:2.0
+    container_name: smallpirate
+    stdin_open: true
+    tty: true
+    expose:
+      - 80
+      - 21
+    ports:
+      - '8000:80'
+      - '2100:21'
+    volumes:
+      - ./v2:/home/ftper/html
+    networks:
+      - smallpirate-net
+
+  mysql-smallpirate:
+    image: tommi2day/mysql4
+    container_name: mysql-smallpirate
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ./db/v2:/db
+    expose:
+      - 3306
+    ports:
+      - 33060:3306
+    networks:
+      smallpirate-net:
+        aliases:
+          - mysql-smallpirate
+
+networks:
+  smallpirate-net:
+
+# compartir vols. entre containers
+# volumes:
+#   v2:
+#   db:
