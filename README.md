@@ -53,7 +53,7 @@ Base de datos: test
 
 - Disclaimer: el script es el original del 2009; está intacto (y todo bugueado).
 
-- La imagen quedó disponible en [https://hub.docker.com/repository/docker/filevich/smallpirate/general](https://hub.docker.com/repository/docker/filevich/smallpirate/general)
+- La imagen quedó disponible en [https://hub.docker.com/r/filevich/smallpirate](https://hub.docker.com/r/filevich/smallpirate)
 
 ## Capturas
 
