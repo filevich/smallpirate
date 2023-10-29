@@ -2,7 +2,7 @@
 
 Se acuerdan de SmallPirate? El original, el del 2009? (que posteriormente sería renombrado a "Spirate"); bueno, me vino nostalgia y decidí dockerizarlo.
 
-![Screenshot from 2023-10-28 20-31-23](https://github.com/filevich/smallpirate/assets/5137488/e064fec3-a602-4ea6-ab52-2cc36517e6e2)
+![Screenshot from 2023-10-28 20-31-23](https://i.imgur.com/8Rxryng.png)
 
 ## Instalación
 
@@ -30,7 +30,7 @@ Contraseña: ftper
 Ruta de instalación: /html
 ```
 
-![Screenshot from 2023-10-28 20-13-59](https://github.com/filevich/smallpirate/assets/5137488/6f710a95-828c-4fc1-82fb-b6e76aaab63b)
+![Screenshot from 2023-10-28 20-13-59](https://i.imgur.com/l67Yne4.png)
 
 ```
 Servidor MySQL: mysql-smallpirate
@@ -41,7 +41,7 @@ Base de datos: test
 
 (notar que difiere de la imagen de ejemplo el nombre de la DB; pueden crear una diferente como lo expliqué en el paso (3))
 
-![Screenshot from 2023-10-28 20-14-27](https://github.com/filevich/smallpirate/assets/5137488/9f528bf8-c0ef-40ad-94da-83c3c1b0d53b)
+![Screenshot from 2023-10-28 20-14-27](https://i.imgur.com/jumfUJw.png)
 
 ## Notas
 
@@ -57,6 +57,6 @@ Base de datos: test
 
 ## Capturas
 
-![Screenshot from 2023-10-28 20-32-29](https://github.com/filevich/smallpirate/assets/5137488/69dad525-5f4a-46b1-a8aa-ef2cc310668b)
+![Screenshot from 2023-10-28 20-32-29](https://i.imgur.com/Ji9e99B.png)
 
-![Screenshot from 2023-10-28 20-32-07](https://github.com/filevich/smallpirate/assets/5137488/f741b355-46c6-48f7-aab9-a4285cafc45a)
+![Screenshot from 2023-10-28 20-32-07](https://i.imgur.com/UDdBbSz.png)
