@@ -8,7 +8,7 @@ Se acuerdan de SmallPirate? El original, el del 2009? (que posteriormente sería
 
 ### De forma automática usando `docker-compose`
 
-Basicamente basta con correr `docker-compose up -d` y luego acceder a [http://localhost:8000/install.php](http://localhost:8000/install.php) para completar la instalación.
+Básicamente, basta con correr `docker-compose up -d` y luego acceder a [http://localhost:8000/install.php](http://localhost:8000/install.php) para completar la instalación.
 
 ### De forma manual usando `docker`
 
