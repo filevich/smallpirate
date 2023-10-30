@@ -1,0 +1,43 @@
+<?php
+
+$txt['already_denounced'] = 'You have already reported this post .';
+$txt['added_post'] = 'Added correctly.';
+$txt['principal_page'] = 'Go home';
+$txt['acc_your_post'] = 'The post';
+$txt['edited_post'] = 'Was edited correctly.';
+$txt['kill_moe'] = 'I´ll kill moe, wiii!';
+$txt['user_police'] = 'Who did the report:';
+$txt['no_denounced'] = 'No reports were made.';
+$txt['prohibited_nick'] = 'Your nick can´t contain rude,publicity,links,violence,or words related to drugs and sex.';
+$txt['prohibited_respect_is_absent'] = 'It´s prohibited to, insult, provoke, defame, harass, threaten or do anything else undesirable, both directly and indirectly to others.';
+$txt['prohibited_insult'] = 'You may not use vulgar, obscene, discriminatory or offensive language.';
+$txt['prohibited_spam'] = 'Spam, publicity or advertising of personal pages, chats, forums, commercial messages aimed at selling products or services, etc.. are prohibited';
+$txt['prohibited_flood'] = 'No repeat or send multiple lines of text at a certain time, no flood';
+$txt['prohibited_shout'] = 'It´s prohibited to use a lot of capital letters,just use them in the star of a sentence or in names, because it means that you are shouting';
+$txt['prohibited_spread'] = 'It´s prohibited to spread,show or publish, libelous, contrary to morals and good customs, discriminatory, violates the privacy or that violates any laws.';
+$txt['acc_go_home'] = 'Go home';
+$txt['acc_congrats'] = 'Congratulations';
+$txt['acc_reg_vibe'] = 'Vibration reggae';
+$txt['acc_val0'] = 'Re-post';
+$txt['acc_val1'] = 'It is spam';
+$txt['acc_val2'] = 'It has dead links';
+$txt['acc_val3'] = 'Racist or rude';
+$txt['acc_val4'] = 'Has personal information';
+$txt['acc_val5'] = 'The title is in caps';
+$txt['acc_val6'] = 'Has porn';
+$txt['acc_val7'] = 'Is gore';
+$txt['acc_val8'] = 'Est&aacute; mal la fuente';
+$txt['acc_val9'] = 'Post too poor';
+$txt['acc_val10'] = 'Without the password';
+$txt['acc_val11'] = 'Out of the protocol';
+$txt['acc_val12'] = 'Another reason';
+$txt['acc_denuncia'] = 'Reported posts';
+$txt['acc_denuncia_sel'] = 'Report/s selected:';
+$txt['acc_elim'] = 'Delete';
+$txt['acc_canot_do'] = 'You can´t to that.';
+$txt['acc_edit_comm'] = 'Edit comment';
+$txt['acc_save_comm'] = 'Save comment';
+$txt['acc_preview'] = 'Preview';
+$txt['acc_loading'] = 'Loading...';
+$txt['acc_cannot_edit'] = "You can´t edit this comment";
+?>

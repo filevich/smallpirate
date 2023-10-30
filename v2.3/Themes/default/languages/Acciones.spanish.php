@@ -1,0 +1,43 @@
+<?php
+
+$txt['already_denounced'] = 'Ya has denunciado este post.';
+$txt['added_post'] = 'ha sido agregado correctamente.';
+$txt['principal_page'] = 'Ir a la P&aacute;gina principal';
+$txt['acc_your_post'] = 'El post';
+$txt['edited_post'] = 'ha sido editado correctamente.';
+$txt['kill_moe'] = 'Voy a matar a Moe, Wiii!';
+$txt['user_police'] = 'Usuario que denunci&oacute;:';
+$txt['no_denounced'] = 'No hay ninguna denuncia hecha.';
+$txt['prohibited_nick'] = 'No se permite el uso de Nicks que contengan t&eacute;rminos insultantes, sexuales, publicidad, link de sitios web, apolog&iacute;as a la violencia y drogas o alg&uacute;n pedido de car&aacute;cter de sexo, compa&ntilde;ia, parejas y/o a fines.';
+$txt['prohibited_respect_is_absent'] = 'Est&aacute; prohibido faltar el respeto, insultar, provocar, difamar, acosar, amenazar o hacer cualquier otra cosa no deseada, tanto directa como indirecta a otras personas.';
+$txt['prohibited_insult'] = 'No est&aacute; permitido utilizar lenguaje vulgar, obsceno, discriminatorio y/u ofensivo.';
+$txt['prohibited_spam'] = 'No est&aacute; permitido el SPAM, publicidad o propaganda de p&aacute;ginas personales, chats, foros, mensajes comerciales destinados a vender productos o servicios, etc.';
+$txt['prohibited_flood'] = 'No repetir o enviar varias lineas de texto en un cierto tiempo, NO FLOOD';
+$txt['prohibited_shout'] = 'Recomendamos no abusar de las MAY&Uacute;SCULAS y utilizarlas s&oacute;lo en comienzos de oraci&oacute;n, nombres propios o siglas, ya que el uso de &eacute;sta significa GRITAR';
+$txt['prohibited_spread'] = 'Est&aacute; prohibido difundir, exponer o publicar contenido difamatorio, calumnioso, contrario a la moral y las buenas costumbres, discriminatorio, injurioso, violatorio de la intimidad o privacidad o cualquier otro que infrinja las leyes.';
+$txt['acc_go_home'] = 'Ir a la P&aacute;gina principal';
+$txt['acc_congrats'] = 'Felicitaciones';
+$txt['acc_reg_vibe'] = 'Vibraci&oacute;n Reggae';
+$txt['acc_val0'] = 'Re-post';
+$txt['acc_val1'] = 'Se hace Spam';
+$txt['acc_val2'] = 'Tiene enlaces muertos';
+$txt['acc_val3'] = 'Es Racista o irrespetuoso';
+$txt['acc_val4'] = 'Contiene informaci&oacute;n personal';
+$txt['acc_val5'] = 'El Titulo esta en may&uacute;scula';
+$txt['acc_val6'] = 'Contiene Pornografia';
+$txt['acc_val7'] = 'Es Gore o asqueroso';
+$txt['acc_val8'] = 'Est&aacute; mal la fuente';
+$txt['acc_val9'] = 'Post demasiado pobre';
+$txt['acc_val10'] = 'No se encuentra el Pass';
+$txt['acc_val11'] = 'No cumple con el protocolo';
+$txt['acc_val12'] = 'Otra raz&oacute;n';
+$txt['acc_denuncia'] = 'Posts Denunciados';
+$txt['acc_denuncia_sel'] = 'Denuncia/s Seleccionada/s:';
+$txt['acc_elim'] = 'Eliminar';
+$txt['acc_canot_do'] = 'No puedes realizar esta accion.-';
+$txt['acc_edit_comm'] = 'Editar comentario';
+$txt['acc_save_comm'] = 'Guardar comentario';
+$txt['acc_preview'] = 'Previsualizar';
+$txt['acc_loading'] = 'Cargando....';
+$txt['acc_cannot_edit'] = 'No tienes permisos para editar este comentario';
+?>
